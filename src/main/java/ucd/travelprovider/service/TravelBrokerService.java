@@ -73,6 +73,7 @@ public class TravelBrokerService {
     private String accommodationJson(String arrival, long from,long price, long capacity) {
         return "{\n" +
                 "\"from\": " + from + ", \n" +
+                "\"to\": " + 0 + ", \n" +
                 "\"arrival\": \"" + arrival + "\",\n" +
                 "\"capacity\": "+capacity+",\n" +
                 "\"accommodationType\": \"ONE_BED\"," +
